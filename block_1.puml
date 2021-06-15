@@ -1,10 +1,10 @@
 @startuml
 
 activate node_a
-node_a -> crpt_a++
+node_a -> crpt_a++: Запрос на шифрование
 deactivate node_a
-crpt_a -> crpt_a
-crpt_a -> node_a++
+crpt_a -> crpt_a: Шифрование
+crpt_a -> node_a++: Зашифрованный запрос
 deactivate crpt_a
 node_a -> rt++
 deactivate node_a

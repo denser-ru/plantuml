@@ -2,7 +2,7 @@
 
 participant "Шифровщик A" as crpt_a
 participant "Узел А" as node_a
-participant "Роутер" as rt
+participant "Шлюз" as rt
 participant "Узел B" as node_b
 participant "Шифровщик B" as crpt_b
 
