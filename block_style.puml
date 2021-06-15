@@ -1,0 +1,12 @@
+@startuml
+
+participant "Шифровщик A" as crpt_a
+participant "Узел А" as node_a
+participant "Роутер" as rt
+participant "Узел B" as node_b
+participant "Шифровщик B" as crpt_b
+
+skinparam ParticipantBackgroundColor #909090
+skinparam ParticipantBorderColor #303030
+
+@enduml

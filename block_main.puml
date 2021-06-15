@@ -1,0 +1,15 @@
+@startuml
+
+participant
+participant "Узел А" as node_a
+participant "Узел B" as node_b
+
+alt Блок 1
+!includeurl https://raw.githubusercontent.com/denser-ru/plantuml/main/block_1.puml
+end
+
+alt Блок 2
+!includeurl https://raw.githubusercontent.com/denser-ru/plantuml/main/block_2.puml
+end
+
+@enduml
