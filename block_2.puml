@@ -1,0 +1,13 @@
+@startuml
+
+activate node_b
+node_b -> crpt_b++
+deactivate node_b
+crpt_b -> crpt_b
+crpt_b -> node_b++
+deactivate crpt_b
+node_b -> rt++
+deactivate node_b
+rt -> node_a++
+
+@enduml
